@@ -6,7 +6,9 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    alias: { src: path.resolve('src/') },
+    alias: {
+      src: path.resolve('./src'),
+    },
   },
   // ...
 });

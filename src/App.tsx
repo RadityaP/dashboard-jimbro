@@ -1,7 +1,5 @@
-import '@/index.css';
-
 function App() {
-  return <></>;
+  return <div className="btn"></div>;
 }
 
 export default App;
