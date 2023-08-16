@@ -10,12 +10,15 @@ import store, { persist } from 'src/stores';
 import { PersistGate } from 'redux-persist/integration/react';
 import { RouterProvider } from 'react-router-dom';
 import router from 'src/routes';
+import { AnimatePresence } from 'framer-motion';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate persistor={persist}>
-        <RouterProvider router={router} />
+        <AnimatePresence mode="wait" initial={false}>
+          <RouterProvider router={router} />
+        </AnimatePresence>
       </PersistGate>
     </Provider>
   </React.StrictMode>
