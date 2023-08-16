@@ -12,29 +12,3 @@ Jimbro is a personal gym tracker and reminder, with a lot of features (that will
 6. And another additional features
 
 You can also share your program and progresses with others!
-
-## Project Stucture
-
-A quick look at the top-level files and directories included with this template. This inspiration is from https://github.com/alan2207/bulletproof-react, but with a little bit of modification.
-
-.
-├── node_modules
-├── public
-├── src
-| ├── apis
-| ├── assets
-| ├── components
-| ├── pages
-| ├── stores
-| ├── routes
-| ├── hooks
-| ├── utils
-| └── vars
-├── .gitignore
-├── .eslintrc.json
-├── .prettierrc
-├── package.json
-├── postcss.config.ts
-├── readme.md
-├── tailwind.config.ts
-└── vite.config.ts
